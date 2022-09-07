@@ -10,7 +10,7 @@ import { Customer } from './customer';
 })
 export class CustomerComponent implements OnInit {
 
-  customerForm: FormGroup = new FormGroup({});
+  customerForm!: FormGroup;
   customer = new Customer();
 
   constructor() { }
