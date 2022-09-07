@@ -29,5 +29,13 @@ export class CustomerComponent implements OnInit {
     console.log('Saved: ' + JSON.stringify(this.customerForm.value));
   }
 
+  populateTestData(): void{
+    this.customerForm.patchValue({
+      firstName: 'Jack',
+      lastName: 'Harkness',
+      sendCatalog: false
+    })
+  }
+
   // No Code Added in the Module
 }
