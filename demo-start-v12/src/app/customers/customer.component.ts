@@ -82,6 +82,10 @@ export class CustomerComponent implements OnInit {
     )
   }
 
+  addAddress(): void{
+    this.addresses.push(this.buildAddress());
+  }
+
   save(): void {
     console.log(this.customerForm);
     console.log('Saved: ' + JSON.stringify(this.customerForm.value));
