@@ -34,4 +34,7 @@ import { ProductEditGuard } from './product-edit.guard';
     ProductEditComponent
   ]
 })
+
+//Going over CRUD opterations no Edits this module
+
 export class ProductModule { }
