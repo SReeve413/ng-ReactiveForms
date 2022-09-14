@@ -187,3 +187,5 @@ export class ProductEditComponent implements OnInit, AfterViewInit, OnDestroy {
     this.router.navigate(['/products']);
   }
 }
+
+// Going Over Editing, Adding and Deleting 
