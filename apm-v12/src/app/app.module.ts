@@ -27,3 +27,5 @@ import { ProductModule } from './products/product.module';
 export class AppModule { }
 
 // Nothing in 27m module was changed
+
+// Complete Module
